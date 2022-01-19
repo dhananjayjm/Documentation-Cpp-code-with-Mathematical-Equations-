@@ -1,23 +1,5 @@
 # Documentation-Cpp-code-with-Mathematical-Equations-
 
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
 # Technical Documentation for C++ Code with Mathematical Equations
 
@@ -29,7 +11,7 @@ MathJax.Hub.Queue(function() {
 
 **Bisection Method** is one of the simplest, reliable, easy to implement and convergence guarenteed method for finding real root of non-linear equations. It is also known as **Binary Search** or **Half Interval** or **Bolzano Method**.
 
-Bisection method is **bracketing method** and starts with two initial guesses say $x_{0}$ and $x_{1}$ such that $x_{0}$ and $x_{1}$ brackets the root i.e. $x_{0} \times x_{1} < 0$
+Bisection method is **bracketing method** and starts with two initial guesses say $x_{0}$ and $x_{1}$ such that $x_{0}$ and $x_{1}$ brackets the root i.e. $`x_{0} \times x_{1} < 0`$
 
 Bisection method is based on the fact that if $f(x)$ is real and continuous function, and for two initial guesses $x_{0}$ and $x_{1}$ brackets the root such that: $x_{0} \times x_{1} < 0$ then there exists atleast one root between $x_{0}$ and $x_{1}$.
 
