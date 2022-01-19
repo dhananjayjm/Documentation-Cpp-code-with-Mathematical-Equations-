@@ -108,4 +108,6 @@ int main()
 }
 ```
 
-
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
